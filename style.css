@@ -1,0 +1,132 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color:#e8b4c2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  width: 100%;
+  max-width: 400px;
+}
+
+.login-box {
+  background: transparent;
+  padding: 2rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  text-align: center;
+  animation: fadeIn 1.5s ease-in-out,pulseGlow 2s infinite alternate,floating 3s ease-in-out infinite;
+}
+.title {
+  font-size: 2rem;
+  color: #561c24;
+  margin-bottom: 0.3rem;
+}
+
+.subtitle {
+  font-size: 0.9rem;
+  color: #6d2932;
+  margin-bottom: 1.5rem;
+}
+
+.input-group {
+  text-align: left;
+  margin-bottom: 1.2rem;
+}
+
+.input-group label {
+  font-size: 0.85rem;
+  color: #561c24;
+  display: block;
+  margin-bottom: 0.3rem;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 2px solid #c7b7a3;
+  border-radius: 0.8rem;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.input-group input:focus {
+  border-color: #6d2932;
+}
+
+.actions {
+  text-align: right;
+  margin-bottom: 1rem;
+}
+
+.forgot {
+  font-size: 0.8rem;
+  color: #6d2932;
+  text-decoration: none;
+}
+
+.forgot:hover {
+  text-decoration: underline;
+}
+
+.btn-login {
+  width: 100%;
+  padding: 0.9rem;
+  background: linear-gradient(135deg, #561c24, #6d2932);
+  border: none;
+  border-radius: 0.8rem;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-login:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 15px rgba(86,28,36,0.4);
+}
+
+.register-text {
+  margin-top: 1.2rem;
+  font-size: 0.9rem;
+  color: #561c24;
+}
+
+.register-link {
+  color: #6d2932;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.register-link:hover {
+  text-decoration: underline;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {opacity: 0; transform: translateY(-20px);}
+  to {opacity: 1; transform: translateY(0);}
+}
+@keyframes pulseGlow{
+  from{
+    box-shadow:0 0 15px rgba(214,41,82,0.4),0 8px 20px rgba(0,0,0,0.15);
+  }
+  to{
+    box-shadow:0 0 30px rgba(214,41,82,0.9),0 8px 20px rgba(0,0,0,0.2);
+  }
+}
+@keyframes floating{
+  0%,100%{transform:translateY(0);}
+  50%{transform: translateY(-10px);}
+}
