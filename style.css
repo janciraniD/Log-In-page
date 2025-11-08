@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color:#e8b4c2;
+  background-color:#0e0d56;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -29,13 +29,13 @@ body {
 }
 .title {
   font-size: 2rem;
-  color: #561c24;
+  color: #0e0d56;
   margin-bottom: 0.3rem;
 }
 
 .subtitle {
   font-size: 0.9rem;
-  color: #6d2932;
+  color: #0e0d56;
   margin-bottom: 1.5rem;
 }
 
@@ -46,7 +46,7 @@ body {
 
 .input-group label {
   font-size: 0.85rem;
-  color: #561c24;
+  color: #0e0d56;
   display: block;
   margin-bottom: 0.3rem;
 }
@@ -61,7 +61,7 @@ body {
 }
 
 .input-group input:focus {
-  border-color: #6d2932;
+  border-color: #0e0d56;
 }
 
 .actions {
@@ -71,7 +71,7 @@ body {
 
 .forgot {
   font-size: 0.8rem;
-  color: #6d2932;
+  color: #0e0d56;
   text-decoration: none;
 }
 
@@ -82,7 +82,7 @@ body {
 .btn-login {
   width: 100%;
   padding: 0.9rem;
-  background: linear-gradient(135deg, #561c24, #6d2932);
+  background: linear-gradient(135deg, #0e0d56, #0e0d56);
   border: none;
   border-radius: 0.8rem;
   color: #fff;
@@ -100,11 +100,11 @@ body {
 .register-text {
   margin-top: 1.2rem;
   font-size: 0.9rem;
-  color: #561c24;
+  color: #0e0d56;
 }
 
 .register-link {
-  color: #6d2932;
+  color: #0e0d56;
   font-weight: 600;
   text-decoration: none;
 }
@@ -120,10 +120,10 @@ body {
 }
 @keyframes pulseGlow{
   from{
-    box-shadow:0 0 15px rgba(214,41,82,0.4),0 8px 20px rgba(0,0,0,0.15);
+    box-shadow: #0e0d56;
   }
   to{
-    box-shadow:0 0 30px rgba(214,41,82,0.9),0 8px 20px rgba(0,0,0,0.2);
+    box-shadow: #0e0d56;
   }
 }
 @keyframes floating{
