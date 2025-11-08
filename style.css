@@ -29,13 +29,13 @@ body {
 }
 .title {
   font-size: 2rem;
-  color: #0e0d56;
+  color: white;
   margin-bottom: 0.3rem;
 }
 
 .subtitle {
   font-size: 0.9rem;
-  color: #0e0d56;
+  color: white;
   margin-bottom: 1.5rem;
 }
 
@@ -46,7 +46,7 @@ body {
 
 .input-group label {
   font-size: 0.85rem;
-  color: #0e0d56;
+  color: white;
   display: block;
   margin-bottom: 0.3rem;
 }
@@ -54,14 +54,14 @@ body {
 .input-group input {
   width: 100%;
   padding: 0.75rem;
-  border: 2px solid #c7b7a3;
+  border: 2px solid black;
   border-radius: 0.8rem;
   outline: none;
   transition: border-color 0.3s;
 }
 
 .input-group input:focus {
-  border-color: #0e0d56;
+  border-color: white;
 }
 
 .actions {
@@ -71,7 +71,7 @@ body {
 
 .forgot {
   font-size: 0.8rem;
-  color: #0e0d56;
+  color: white;
   text-decoration: none;
 }
 
@@ -82,8 +82,8 @@ body {
 .btn-login {
   width: 100%;
   padding: 0.9rem;
-  background: linear-gradient(135deg, #0e0d56, #0e0d56);
-  border: none;
+  background: linear-gradient(135deg, white, #0e0d56);
+  border: 2px solid black;
   border-radius: 0.8rem;
   color: #fff;
   font-size: 1rem;
@@ -94,17 +94,17 @@ body {
 
 .btn-login:hover {
   transform: scale(1.03);
-  box-shadow: 0 6px 15px rgba(86,28,36,0.4);
+  box-shadow: white;
 }
 
 .register-text {
   margin-top: 1.2rem;
   font-size: 0.9rem;
-  color: #0e0d56;
+  color: white;
 }
 
 .register-link {
-  color: #0e0d56;
+  color: white;
   font-weight: 600;
   text-decoration: none;
 }
@@ -120,10 +120,10 @@ body {
 }
 @keyframes pulseGlow{
   from{
-    box-shadow: #0e0d56;
+    box-shadow: white;
   }
   to{
-    box-shadow: #0e0d56;
+    box-shadow: white;
   }
 }
 @keyframes floating{
